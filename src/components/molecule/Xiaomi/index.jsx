@@ -1,7 +1,7 @@
-import BannerFlagship from "../../Atoms/BannerFlagship/index.jsx";
+import BannerFlagship from "../../atoms/BannerFlagship/index.jsx";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import ShortCardXiaomi from "../../Atoms/ShortCardXiaomi/index.jsx";
+import ShortCardXiaomi from "../../atoms/ShortCardXiaomi/index.jsx";
 
 const Xiaomi = () => {
   const [dataXiaomi, setDataXiaomi] = useState([]);

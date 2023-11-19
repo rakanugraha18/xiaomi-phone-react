@@ -1,8 +1,8 @@
 import RedmiSection from "../components/molecule/Smartphone/RedmiSection";
 import XiaomiSection from "../components/molecule/Smartphone/XiaomiSection";
 import PocoSection from "../components/organism/Products/PocoSection";
-import TittleProduct from "../components/Atoms/HeadTitle/TitleProduct";
-import CustomButton from "../components/Atoms/WithCVA/CustomButton";
+import TittleProduct from "../components/atoms/HeadTitle/TitleProduct";
+import CustomButton from "../components/atoms/WithCVA/CustomButton";
 
 const SmartPhone = () => {
   return (
