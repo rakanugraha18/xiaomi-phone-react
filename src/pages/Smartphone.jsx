@@ -1,7 +1,7 @@
 import RedmiSection from "../components/molecule/Smartphone/RedmiSection";
 import XiaomiSection from "../components/molecule/Smartphone/XiaomiSection";
 import PocoSection from "../components/organism/Products/PocoSection";
-import TitleSeeAll from "../components/Atoms/BannerSeeAll/TitleSeeAll";
+import TittleProduct from "../components/Atoms/HeadTitle/TitleProduct";
 import CustomButton from "../components/Atoms/WithCVA/CustomButton";
 
 const SmartPhone = () => {
@@ -10,7 +10,7 @@ const SmartPhone = () => {
       <XiaomiSection />
       <RedmiSection />
       <section className="bg-[#F7F7F7] h-60 flex flex-col items-center justify-center z-0 md:gap-2 md:p-5">
-        <TitleSeeAll
+        <TittleProduct
           SeriesName="Seri Poco"
           Motto="Extreme performance, extreme price"
         />

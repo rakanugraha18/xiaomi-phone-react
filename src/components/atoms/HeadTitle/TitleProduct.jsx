@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const BannerSeeAll = (props) => {
+const TittleProduct = (props) => {
   const { SeriesName, redirect, Motto } = props;
   return (
     <>
@@ -13,4 +13,4 @@ const BannerSeeAll = (props) => {
   );
 };
 
-export default BannerSeeAll;
+export default TittleProduct;
