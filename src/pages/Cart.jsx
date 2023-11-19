@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { CartContext } from "../context/CartProvider";
 import CheckoutNavbar from "../components/organism/Navbar/CheckoutNavbar";
 import EmptyCart from "../components/molecule/Cart/EmptyCart";
-import CustomButton from "../components/Atoms/WithCVA/CustomButton";
+import CustomButton from "../components/atoms/WithCVA/CustomButton";
 
 const Cart = () => {
   const { cartItems, addToCart, removeFromCart, clearCart, getCartTotal } =
