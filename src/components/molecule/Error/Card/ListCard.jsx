@@ -1,4 +1,4 @@
-import CardError from "../../../Atoms/CardError";
+import CardError from "../../../atoms/CardError";
 import { useEffect, useState } from "react";
 import axios from "axios";
 

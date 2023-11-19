@@ -1,4 +1,4 @@
-import BannerError from "../../Atoms/BannerError";
+import BannerError from "../../atoms/BannerError";
 import Judul from "../../molecule/Error/Judul";
 import ListCard from "../../molecule/Error/Card/ListCard";
 

@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { CartContext } from "../../../context/CartProvider.jsx";
 import CustomButton from "../../atoms/WithCVA/CustomButton.jsx/index.js";
-import TitleFlagship from "../../Atoms/InsideCard/TitleFlagship.jsx";
-import ImgFlagship from "../../Atoms/InsideCard/ImgFlagship.jsx";
-import LearnMoreButton from "../../Atoms/WithCVA/LearnMoreButton.jsx";
+import TitleFlagship from "../../atoms/InsideCard/TitleFlagship.jsx";
+import ImgFlagship from "../../atoms/InsideCard/ImgFlagship.jsx";
+import LearnMoreButton from "../../atoms/WithCVA/LearnMoreButton.jsx";
 
 export default function BannerCard() {
   const [dataPoco, setDataPoco] = useState([]);

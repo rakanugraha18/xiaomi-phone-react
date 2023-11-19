@@ -1,5 +1,5 @@
 import React from "react";
-import CustomButton from '../../Atoms/WithCVA/CustomButton'
+import CustomButton from "../../aoms/WithCVA/CustomButton";
 
 const XiaomiBanner = () => {
   return (
@@ -11,9 +11,7 @@ const XiaomiBanner = () => {
         id="site-banner"
         className="relative flex justify-center items-start h-full max-h-full min-h-auto overflow-hidden text-white"
       >
-        <picture
-          className="responsive-image flex h-full overflow-hidden absolute w-full z-1"
-        >
+        <picture className="responsive-image flex h-full overflow-hidden absolute w-full z-1">
           <source
             media="(max-width: 720px)"
             type="image/jpeg"
@@ -36,26 +34,29 @@ const XiaomiBanner = () => {
         <div
           id="site-banner__info"
           className="flex  w-[500px] absolute z-2 top-[5%] gap-[25px] left-0 md:left-[15%] py-[3.9vw] px-0 flex-col "
-    
         >
           <div className="w-full max-w-full flex flex-col items-center md:items-start">
+            <h2
+              id="title"
+              className="text-white block text-[40px] md:text-[2vw] lg:text-[3vw] font-semibold leading-0 m-0 overflow-hidden text-ellipsis whitespace-pre-line "
+            >
+              Xiaomi 13T
+            </h2>
+            <h4
+              id="subtitle"
+              className="text-white block text-[20px] lg:text-[30px] font-normal m-0 overflow-hidden leading-0 text-ellipsis whitespace-pre-line"
+            >
+              Masterpiece in sight
+            </h4>
 
-          <h2
-            id="title"
-            className="text-white block text-[40px] md:text-[2vw] lg:text-[3vw] font-semibold leading-0 m-0 overflow-hidden text-ellipsis whitespace-pre-line "
-          >
-            Xiaomi 13T
-          </h2>
-          <h4
-            id="subtitle"
-            className="text-white block text-[20px] lg:text-[30px] font-normal m-0 overflow-hidden leading-0 text-ellipsis whitespace-pre-line"
-          >
-            Masterpiece in sight
-          </h4>
-        
-              <CustomButton className="mt-6 no-arrow" to="/xiaomi" text="Beli Sekarang" intent="light" rounded="yes"/></div>
-          
-         
+            <CustomButton
+              className="mt-6 no-arrow"
+              to="/xiaomi"
+              text="Beli Sekarang"
+              intent="light"
+              rounded="yes"
+            />
+          </div>
         </div>
       </div>
     </section>

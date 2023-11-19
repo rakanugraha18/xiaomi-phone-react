@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TabButton from "../../Atoms/TabButton";
+import TabButton from "../../atoms/TabButton";
 
 const index = () => {
   return (

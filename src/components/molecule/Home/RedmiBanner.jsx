@@ -1,5 +1,5 @@
 import React from "react";
-import CustomButton from "../../Atoms/WithCVA/CustomButton";
+import CustomButton from "../../atoms/WithCVA/CustomButton";
 
 const RedmiBanner = () => {
   return (
@@ -58,27 +58,25 @@ const RedmiBanner = () => {
               </div>
 
               <div className="flex space-x-[15px] justify-center md:justify-left w-full">
-            
+                <CustomButton
+                  text="Beli sekarang"
+                  intent="dark"
+                  border="yes"
+                  hover="no"
+                  rounded="yes"
+                />
+                <div className="toogle_icon">
+                  {" "}
                   <CustomButton
-                    text="Beli sekarang"
-                    intent="dark"
-                    border="yes"
-                    hover="no"
+                    to="/redmi"
+                    text="Learn More"
+                    intent="dark_nobg"
+                    border="custom"
+                    hover="custom"
                     rounded="yes"
+                    icon=">"
+                    order="textFirst"
                   />
-                  <div className="toogle_icon">
-                    {" "}
-                    <CustomButton
-                      to="/redmi"
-                      text="Learn More"
-                      intent="dark_nobg"
-                      border="custom"
-                      hover="custom"
-                      rounded="yes"
-                      icon=">"
-                      order="textFirst"
-                    />
-                 
                 </div>
               </div>
             </div>

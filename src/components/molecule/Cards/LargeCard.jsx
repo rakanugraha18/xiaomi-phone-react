@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { CartContext } from "../../../context/CartProvider.jsx";
 import CustomButton from "../../atoms/WithCVA/CustomButton.jsx/index.js";
-import TitleCard from "../../Atoms/InsideCard/TitleCard.jsx";
-import ImgCard from "../../Atoms/InsideCard/ImgCard.jsx";
-import LearnMoreButton from "../../Atoms/WithCVA/LearnMoreButton.jsx";
+import TitleCard from "../../atoms/InsideCard/TitleCard.jsx";
+import ImgCard from "../../atoms/InsideCard/ImgCard.jsx";
+import LearnMoreButton from "../../atoms/WithCVA/LearnMoreButton.jsx";
 
 export default function LargeCard() {
   const [dataPoco, setDataPoco] = useState([]);

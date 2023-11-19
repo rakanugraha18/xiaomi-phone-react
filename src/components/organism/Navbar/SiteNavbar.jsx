@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Icon from "../../Atoms/Icon";
-import Logo from "../../Atoms/Logo";
-import List from "../../Atoms/Global/List";
+import Icon from "../../atoms/Icon";
+import Logo from "../../atoms/Logo";
+import List from "../../atoms/Global/List";
 import SearchButton from "../../molecule/Search/SearchButton";
 import ThemeSwitch from "../../molecule/ThemeSwitch";
 

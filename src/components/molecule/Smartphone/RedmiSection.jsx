@@ -1,5 +1,5 @@
 import BannerSeeAll from "../../atoms/BannerSeeAll";
-import LongCardRight from "../../Atoms/LongCardRight";
+import LongCardRight from "../../atoms/LongCardRight";
 
 const RedmiSection = () => {
   return (

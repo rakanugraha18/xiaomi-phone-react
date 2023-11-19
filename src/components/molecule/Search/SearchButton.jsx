@@ -1,11 +1,10 @@
-import Icon from "../../Atoms/Icon";
+import Icon from "../../atoms/Icon";
 const SearchButton = () => {
-    return (
-        <button>
-           <Icon classname="search-glass"/>
-        </button>
-    )
-}
-
+  return (
+    <button>
+      <Icon classname="search-glass" />
+    </button>
+  );
+};
 
 export default SearchButton;

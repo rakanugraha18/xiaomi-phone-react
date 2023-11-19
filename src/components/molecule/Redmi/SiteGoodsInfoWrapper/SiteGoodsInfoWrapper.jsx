@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../organism/Redmi/RedmiPhoneList.css";
-import GoodsInfo from "../../../Atoms/GoodsInfo/GoodsInfo";
-import GoodsButtonContainer from "../../../Atoms/GoodsButtonContainer/GoodsButtonContainer";
+import GoodsInfo from "../../../atoms/GoodsInfo/GoodsInfo";
+import GoodsButtonContainer from "../../../atoms/GoodsButtonContainer/GoodsButtonContainer";
 // import GoodsInfo from "../../Elements/GoodsInfo/GoodsInfo";
 // import GoodsButtonContainer from "../../Elements/GoodsButtonContainer/GoodsButtonContainer";
 
