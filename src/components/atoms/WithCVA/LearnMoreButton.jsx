@@ -67,7 +67,7 @@ const Variants = cva(
   }
 );
 
-const CustomButton = ({
+const LearnMoreButton = ({
   onClick,
   to,
   text,
@@ -104,4 +104,4 @@ const CustomButton = ({
   );
 };
 
-export default CustomButton;
+export default LearnMoreButton;
