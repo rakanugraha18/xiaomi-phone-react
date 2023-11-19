@@ -1,6 +1,5 @@
 import React from "react";
-import CustomButton from "../../aoms/WithCVA/CustomButton";
-
+import CustomButton from "../../atoms/WithCVA/CustomButton";
 const XiaomiBanner = () => {
   return (
     <section

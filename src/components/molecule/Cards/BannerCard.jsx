@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { CartContext } from "../../../context/CartProvider.jsx";
-import CustomButton from "../../atoms/WithCVA/CustomButton.jsx/index.js";
+import CustomButton from "../../atoms/WithCVA/CustomButton.jsx";
 import TitleFlagship from "../../atoms/InsideCard/TitleFlagship.jsx";
 import ImgFlagship from "../../atoms/InsideCard/ImgFlagship.jsx";
 import LearnMoreButton from "../../atoms/WithCVA/LearnMoreButton.jsx";
