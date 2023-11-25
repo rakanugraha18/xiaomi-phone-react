@@ -26,7 +26,7 @@ const SmartPhone = () => {
           />
         </div>
       </section>
-      <PocoSection />
+      <PocoSection key={1} />
     </>
   );
 };

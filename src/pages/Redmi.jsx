@@ -18,7 +18,7 @@ const RedmiPhoneList = () => {
         toTitle3="/poco"
       />
       <div className="redmi-page">
-        <SiteBanner />
+        <SiteBanner key={1} />
         <SiteGoods />
       </div>
     </div>

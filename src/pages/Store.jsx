@@ -41,6 +41,7 @@ export default function Store() {
             </div>
             <div className="mt-6 flex justify-between items-center">
               <button
+                key={1}
                 onClick={() => addToCart(product)}
                 className="px-4 py-2 bg-orange-600 text-white text-xs font-bold uppercase rounded hover:bg-orange-700 focus:outline-none focus:bg-orange-700"
               >

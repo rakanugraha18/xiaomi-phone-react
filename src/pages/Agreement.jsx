@@ -8,7 +8,7 @@ function Agreement() {
       <div>
         <section className="w-full justify-center px-16 lg:w-full">
           <h2 className="font-bold text-[45px] font-Inter text-center pt-16">
-            Persetujuan Pengguna
+            Persetujuan Penggunaa
           </h2>
           <Tab />
         </section>

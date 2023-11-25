@@ -28,7 +28,7 @@ function Checkout() {
                 <p className="text-lg lg:text-base">+62877****4477</p>
                 <p className="text-lg lg:text-base">
                   Jl. Awan Kec. Kintamani Kota Bangli Bali Awan Kintamani Bangli
-                  Bali
+                  Balii
                 </p>
               </div>
               <div className="hidden max-w-lg py-6 lg:block lg:border lg:border-solid lg:rounded-lg lg:p-[10px] lg:ml-1 lg:hover:border-[#FF6900] lg:hover:text-[#FF6900] lg:hover:cursor-pointer">

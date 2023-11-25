@@ -66,7 +66,7 @@ const Cart = () => {
               Saat Anda menandatangani tanda terima pemesanan produk, Anda
               dianggap telah menerima dan memeriksa secara teliti produk
               tersebut. Oleh karena itu, Anda tidak berhak melakukan pembatalan
-              dan/atau pengembalian produk tersebut.
+              dan/atau pengembalian produk tersebut..
             </p>
           </div>
           <div className="flex justify-between items-center">

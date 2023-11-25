@@ -10,7 +10,7 @@ function About() {
       <div>
         <section className="w-full justify-center px-16 lg:w-full ">
           <h2 className="font-bold text-[45px] font-Inter text-center pt-16">
-            Tentang kita
+            Tentang kitaa
           </h2>
           <Tab />
         </section>

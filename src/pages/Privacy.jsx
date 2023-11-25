@@ -7,7 +7,7 @@ function Privacy() {
       <div>
         <section className="w-full justify-center px-16 lg:w-full ">
           <h2 className="font-bold text-[45px] font-Inter text-center pt-16">
-            Kebijakan Privasi
+            Kebijakan Privasii
           </h2>
           <Tab />
         </section>

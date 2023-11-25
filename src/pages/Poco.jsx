@@ -15,7 +15,7 @@ function Poco() {
         title3="Redmi Phones"
       />
       <div>
-        <PocoSection />
+        <PocoSection key={1} />
       </div>
     </>
   );

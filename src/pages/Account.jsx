@@ -22,7 +22,7 @@ const Account = () => {
               <a href="/">
                 <img className="w-[40px] h-[40px]" src={Logo} alt="" />
               </a>
-              <h1 className="text-[28px] text-text">Akun Xiaomi</h1>
+              <h1 className="text-[28px] text-text">Akun Xiaomii</h1>
             </div>
 
             <div className="hidden md:block w-[50%]">
@@ -47,8 +47,7 @@ const Account = () => {
               </nav>
             </div>
           </header>
-          <div
-            className="p-8 w-[500px] relative bg-contrast text-left m-auto py-[20px]">
+          <div className="p-8 w-[500px] relative bg-contrast text-left m-auto py-[20px]">
             <AccountForm />
           </div>
         </div>

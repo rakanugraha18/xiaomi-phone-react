@@ -12,7 +12,8 @@ const Home = () => {
       </div>
       <div
         id="latestproduct"
-        className="max-w-full w-full flex flex-col sm:flex-row sm:space-y-[15px] lg:space-y-[0px] md:space-x-[15px]">
+        className="max-w-full w-full flex flex-col sm:flex-row sm:space-y-[15px] lg:space-y-[0px] md:space-x-[15px]"
+      >
         <LatestPhone
           title="Redmi 10 2022"
           subtitle="Harga super Hemat"
@@ -28,6 +29,7 @@ const Home = () => {
           imgphone="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg"
           to1="/redmi"
           to2="/redmi"
+          key={1}
         />
       </div>
     </div>
