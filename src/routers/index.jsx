@@ -1,19 +1,19 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../pages/Home.jsx";
-import Store from "../pages/Store.jsx";
-import Cart from "../pages/Cart.jsx";
-import Account from "../pages/Account.jsx";
-import Error from "../pages/Error.jsx";
-import SmartPhone from "../pages/Smartphone.jsx";
-import About from "../pages/About.jsx";
-import Agreement from "../pages/Agreement.jsx";
-import Leadership from "../pages/Leadership.jsx";
-import Privacy from "../pages/Privacy.jsx";
-import Poco from "../pages/Poco.jsx";
-import XiaomiPro from "../pages/XiaomiPro.jsx";
-import Checkout from "../pages/Checkout.jsx";
+import Home from "../pages/home.jsx";
+import Store from "../pages/store.jsx";
+import Cart from "../pages/cart.jsx";
+import Account from "../pages/account.jsx";
+import Error from "../pages/error.jsx";
+import SmartPhone from "../pages/smartphone.jsx";
+import About from "../pages/about.jsx";
+import Agreement from "../pages/agreement.jsx";
+import Leadership from "../pages/leadership.jsx";
+import Privacy from "../pages/privacy.jsx";
+import Poco from "../pages/poco.jsx";
+import XiaomiPro from "../pages/xiaomiPro.jsx";
+import Checkout from "../pages/checkout.jsx";
 import DetailPoco from "../pages/ProductDetails/Poco/index.jsx";
-import RedmiList from "../pages/Redmi.jsx";
+import RedmiList from "../pages/redmi.jsx";
 
 export const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -21,11 +21,11 @@ export const router = createBrowserRouter([
   { path: "/cart", element: <Cart /> },
   { path: "/account", element: <Account /> },
   { path: "/smartphone", element: <SmartPhone /> },
-  { path: "/About", element: <About /> },
-  { path: "/Agreement", element: <Agreement /> },
-  { path: "/Leadership", element: <Leadership /> },
-  { path: "/Privacy", element: <Privacy /> },
-  { path: "/Poco", element: <Poco /> },
+  { path: "/about", element: <About /> },
+  { path: "/agreement", element: <Agreement /> },
+  { path: "/leadership", element: <Leadership /> },
+  { path: "/privacy", element: <Privacy /> },
+  { path: "/poco", element: <Poco /> },
   { path: "/redmi", element: <RedmiList /> },
   { path: "/xiaomi", element: <XiaomiPro /> },
   { path: "*", element: <Error /> },
